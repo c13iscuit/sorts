@@ -8,7 +8,7 @@ def insertion_sort(array)
     end
     array[j + 1] = value
   end
-  p array
+  array
 end
 
 insertion_sort([9, 0, 45, 3, 6, 7, 20, 19, 5])
